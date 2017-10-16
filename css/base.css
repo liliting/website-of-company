@@ -1,0 +1,174 @@
+/*solution start*/
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+	font-family: "微软雅黑";
+}
+/*#solution{
+	position:relative;
+}*/
+.so-main-item{
+	padding:65px 0;
+	overflow:hidden;
+}
+.so-second{
+	background-color: #F6F6F6;
+}
+.so-info{ 
+	width:500px;
+	vertical-align: middle;
+	line-height:170%;
+}
+.so-suite{
+	width:500px;
+	padding-bottom:16px;
+	background:url(../images/so_07.png);
+}
+.so-suite-second{
+	padding-bottom:16px;
+	background:url(../images/so_08.png);
+}
+.so-suite-img{
+	padding:10px;
+	background:url(../images/so_03.png);
+}
+.so-suite-img-second{
+	border:10px solid #FFF;
+}
+.so-info > h2{
+	font-size:22px;
+	margin-bottom:33px;
+	text-align: center;
+}
+.so-info > p{
+	font-size:14px;
+	text-indent: 2em;
+}
+.so-info > h3{
+	font-size:16px;
+	margin-top:28px;
+	margin-bottom:22px;
+}
+/*solution over*/
+
+/*work start*/
+.work-banner{
+	width:100%;
+	position:relative;
+}
+#xintaobtn{
+	position:absolute;
+	top:70%;
+	left:50%;
+	margin-left:-120px;
+	z-index:2;
+	*zoom: 1;
+}
+.work-brief{
+	width:852px;
+	height:210px;
+	background: url(../images/work_about.png) no-repeat;
+	margin-top:20px;
+	line-height:200%;
+	font-size:14px;
+	 margin-right:40px; 
+	position:relative;
+}
+.work-brief-img{
+	margin-left:40px;
+}
+.work-brief-info{
+	width:762px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-380px;
+	margin-top:-55px;
+}
+#work-last{
+	text-align:center;
+}
+.work-xintao{
+	width:565px;
+}
+.work-xintao-main > dt{
+	padding-top:30px;
+	padding-bottom:14px;
+	font-size:16px;
+	font-weight: 600;
+	color:#505050;
+}
+.work-en{
+	margin-left:18px;
+}
+.work-xintao-main > dd{
+	padding-left:60px;
+	color:#7e7e7e;
+}
+.so-second i{
+	width:30px;
+	height:30px;
+	display: inline-block;
+	background:url(../images/img1.png) no-repeat;
+	vertical-align: middle;
+	margin-right:25px;
+}
+#work-person i{
+	background-position:0 0;
+}
+#work-solve i{
+	background-position:0 -30px;
+}
+#work-care i{
+	background-position:0 -60px;
+}
+#work-coop i{
+	background-position:0 -90px;
+}
+.new-xintao{
+	position:relative;
+	width: 1200px;
+	display:inline-block;
+	text-align:center;
+}
+.new-team{
+	width:280px;
+	margin-right:150px;
+}
+.new-team-last{
+	margin-right:0;
+}
+.xintao-team{
+	margin-top:45px;
+	display: inline-block;
+	text-align:center;
+}
+#team-one,#team-two,#team-three{
+	width:101px;
+	height:53px;
+	margin-left:69px;
+	line-height: 75px;
+	color:#FFF;
+	padding-left:40px;
+	text-align:center;
+}
+#team-one{
+	background: url(../images/work_one.png) no-repeat 45% top;
+}
+#team-two{
+	background: url(../images/work_two.png) no-repeat 45% top;
+}
+#team-three{
+	background: url(../images/work_three.png) no-repeat 45% top;
+}
+.new-team > p{
+	font-size:14px;
+	line-height:160%;
+	margin-top:33px;
+	color:#7e7e7e;
+	text-align:left;
+}
+
+
+/*work over*/

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>****技术有限公司-加入我们</title>
+    <link type="text/css" href="css/global.css" rel="stylesheet">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<!-- header start -->
+	<div class="header">
+		<div class="center">
+			<a href="index.html" class="fl">
+				<img src="./images/logoimage.png" alt="********" width="288" height="61">
+			</a>
+			<ul class="fr header-ul">
+				<li class="header-nav"><a href="index.html">首页</a></li>
+				<li class="header-nav"><a href="javacript:void(0);">解决方案</a></li>
+				<li class="header-nav"><a href="javacript:void(0);">业务领域</a></li>
+				<li class="header-nav"><a href="tec-support.html">技术支持</a></li>
+				<li class="header-nav active header-nav-last"><a href="javacript:void(0);">关于我们</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="header-wrap"></div>
+	<div class="navgation">
+		<ul class="nav-ul"></ul>
+	</div>
+<!-- header over -->
+<div class="container join-us" style="poistion:relative;">
+	<div class="join-us-top">
+		<img src="images/join-us-top.png" alt="我们在寻找真心、诚心、决心的您加入我们"/>
+	</div>
+	<div class="join-us-cont"><p>从进入**的第一天起, 你就开始了一边工作一边培训的过程。 你将发现**多年积累的专业经验对你受益良多。加入**，你将被 列入公司的员工职业发展培训计划之中。对公司而言，培训不仅是每位员工自身素质及潜能获得 不断提高和发展的需要，也是促进公 司获取更大成功的重要标志之一。公司根据实际情况评估你的发展潜力，计划对你的培训。在公司内，每一个努力工作的员工， 都能 获得与其能力相适应的发展机会。我们可以很有信心地说, 通过在**的工作和学习, 你将有机会成为这个行业内的专家。</p></div>
+	<!--Join us jobs start-->
+	<div class="join-us-jobs clearfix" id="join-us-jobs">
+		<a href="javascript:void(0);">
+			<span class="icon icon4"><i></i></span>
+			<span class="desc"><b>技术研发</b>Web/App</span>
+		</a>
+		<a href="javascript:void(0);">
+			<span class="icon icon5"><i></i></span>
+			<span class="desc"><b>产品运营</b>IOS/Android/Java</span>
+		</a>
+		<a href="javascript:void(0);">
+			<span class="icon icon6"><i></i></span>
+			<span class="desc"><b>客户服务</b>销售经理/销售/AE</span>
+		</a>
+		<a href="javascript:void(0);">
+			<span class="icon icon1"><i></i></span>
+			<span class="desc"><b>市场营销</b>系统工程师</span>
+		</a>
+		<a href="javascript:void(0);">
+			<span class="icon icon2"><i></i></span>
+			<span class="desc"><b>管理支持</b>Unity3D客户端程序员</span>
+		</a>
+		<a href="javascript:void(0);">
+			<span class="icon icon3"><i></i></span>
+			<span class="desc"><b>全部岗位</b>企划专员/解决方案专员</span>
+		</a>
+	</div>
+	<!--Join us jobs end-->
+	<div class="join-us-notice">
+		<p>注意：部分职位请将简历发送至公司邮箱</p>
+		<p>E-mail：HR@****.com</p>
+	</div>
+</div>
+
+<!-- Pop-up window -->
+<div class="pop-up-job" id="pop-up-job" style="display:none;">
+	<div class="mask"></div>
+	<div class="dialog" id="dialog">
+		<div id="close" class="close"></div>
+		<h2>手机软件开发高级工程师</h2>
+		<p>岗位职责</p>
+		<p>根据公司需求进行移动客户端的开发，包括Android和iOS等多个平台，参与需求讨论和方案设计，进行编码和单元测试，修正bug。
+		岗位要求</p>
+		<p>1、大学本科及以上学历，计算机、通信及相关专业；具有扎实的计算机理论基础知识，熟悉数据结构和基本算法；</p>
+		<p>2、至少具有Android或iOS平台1年以上的实际开发经验，至少有一款商用产品的完整开发经验，具有2个以上平台的开发经验者优先；</p>
+		<p>3、精通C/Object-C/C++/Java编程语言，深刻理解iOS和Android操作系统原理、架构，熟悉它们的开发环境、调试工具；</p>
+		<p>4、喜欢编程，喜欢不断持续优化代码，喜欢钻研，善于调试和分析，较强的理解能力、分析能力和执行力；</p>
+		<p>5、熟悉微信、微博应用接口优先，有3D开发经验者优先。</p>
+		<div class="tel">
+			<p>联系方式：</p>
+			<p>联系人：人力资源部</p>
+			<p>E-mail：HR@gongsi.com</p>
+		</div>
+	</div>	
+</div>
+   <script type="text/javascript" >
+   window.onload=function(){
+   	var job=document.getElementById("join-us-jobs");
+	var pop=document.getElementById("pop-up-job");  
+	var as=job.getElementsByTagName("a");
+
+    for(var i=0;i<as.length;i++){
+    	as[i].onclick=function(){
+    		pop.style.display="block";	
+    	}
+    }
+    var close=document.getElementById("close");
+    close.onclick=function(){
+    	pop.style.display="none";
+    }
+   }</script>
+<!-- footer start -->
+<div id="promote">
+	<div id="alert">
+		<img src="./images/cloud.png" alt="" class="cloud">
+		<p class="alert-info">您的留言已经提交成功，感谢您对我们的网站提出建议或意见！</p>
+		<input type="button" value="我知道了" id="know">
+	</div>
+	<div class="alert-ee"></div>
+	<div class="alert-close"></div>
+</div>
+<div class="footer">
+	<div class="center">
+		<div id="contact" class="clear">
+			<h2 class="fl">联系我们</h2>
+			<span id="con-en">contact us</span>
+		</div>
+
+		<div class="contact-info">
+			<p class="contact-code">
+				<span>
+					<img src="./images/app.png" alt="**APP" width="54px" class="er-code">
+				</span>
+				<span class="con-name">**APP</span>
+				<em class="con-sao">扫一扫下载</em>
+			</p>
+			<p class="contact-code">
+				<span>
+					<img src="./images/wechat.png" alt="**微信" width="54px" class="er-code">
+				</span>
+				<span class="con-name">官方微信</span>
+				<em class="con-sao">扫一扫关注</em>
+			</p>
+		</div>
+		<div class="contact-info">
+			<h3>北京****科技有限公司</h3>
+			<dl>
+				<dt class="info-title">公司地址：北京市海淀区中关村南大街</dt>
+				<dt class="info-title">联系电话：010-********</dt>
+				<dt class="info-title">图文传真：010-********</dt>
+				<dt class="info-title">市场合作：marketing@********.com</dt>
+				<dt class="info-title">市场合作：marketing@********.com</dt>
+			</dl>
+		</div>
+		<form class="contact-form" action="#" method="post">
+			<div class="comment">
+				<label for="name">姓名：</label><input type="text" name="name" size="22">
+				<label for="email">邮箱：</label><input type="text" name="email" size="22">
+			</div>
+			<div class="comment">
+				<label for="title">主题：</label><input type="text" name="title" size="57">
+			</div>
+			<div class="comment">
+				<label for="content" id="form-con">内容：</label><textarea name="content" rows="5" cols="51"></textarea>
+			</div>
+			<div class="submit">
+				<input type="submit" value="提交" id="submit-btn">
+			</div>
+		</form>
+		
+	</div>
+</div>
+<div class="copy">
+	<div class="center">
+		<ul>
+			<li class="copy-nav"><a href="#">企业介绍</a></li>
+			<li class="copy-nav"><a href="#">商务合作</a></li>
+			<li class="copy-nav"><a href="join-us.html">加入我们</a></li>
+			<li class="copy-nav"><a href="#">法律条款</a></li>
+		</ul>
+		<p class="copy-item fl">北京****科技有限公司 版权所有 Copyright &copy; All rights reserved.2013-2015   京***证********号   京公网安备</p>
+	</div>
+</div>
+<div id="meng"></div>
+<!-- footer end -->   
+<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="./js/common.js"></script>
+</body>
+</html>
